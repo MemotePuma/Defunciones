@@ -1,11 +1,10 @@
 #Método largo para obtener las 10 principales causas de muerte
 
 library(dplyr)
-library(sqldf)
 library(openxlsx)
 library(stringr)
 
-setwd("C:/Users/miguel.araujo/Desktop/Ejercicio/Mortalidad")
+setwd("Ruta")
 
 dfMorta22 <- read.csv("conjunto_de_datos_defunciones_registradas_2022.CSV")
 View(dfMorta22)
